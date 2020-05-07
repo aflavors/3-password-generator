@@ -1,3 +1,6 @@
+* {/*Imported font*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
 *,
 *::before,
 *::after {
