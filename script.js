@@ -2,6 +2,13 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+//ABC Uppecase
+var abcStringUppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//ABC Lowercase
+var abcLowercase = "abcdefghijklmnopqrstuvwxyz";
+//Special Characters
+var specialChar = "!@#$%^&*()_-+=`~,.<>?/|";
+
 //-----Functions
 // Welcome user and confirm they want to generate a password
 function welcomePrompt() {
