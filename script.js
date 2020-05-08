@@ -15,6 +15,15 @@ function welcomePrompt() {
   confirm("Please answer the following questions to generate your password. Click ok to begin.");
 }
 
+//-----Psuedocode for new function
+// Name function
+// Define variable for password to return to
+// Define string
+// Define loop for length of strength and random selection
+// Combine random selection together
+// Return to variable
+// Add to generateBtn order
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
