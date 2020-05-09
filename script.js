@@ -3,11 +3,11 @@
 var generateBtn = document.querySelector("#generate");
 
 //ABC Uppecase
-var abcStringUppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var charsUppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 //ABC Lowercase
-var abcLowercase = "abcdefghijklmnopqrstuvwxyz";
+var charsLowercase = "abcdefghijklmnopqrstuvwxyz";
 //Special Characters
-var specialChar = "!@#$%^&*()_-+=`~,.<>?/|";
+var charsSpecial = "!@#$%^&*()_-+=`~,.<>?/|";
 
 var welcomePrompt = prompt("What kind of characters would you like to include in your password? Enter 'l' for lowecase, 'u' for uppercase, 'n' for numbers, 's' for special characters, or 'all' for all character types.")
 welcomePrompt = welcomePrompt.toLocaleLowerCase();
