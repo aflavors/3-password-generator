@@ -7,7 +7,7 @@ function writePassword() {
   var welcomePrompt = prompt("What kind of characters would you like to include in your password? Enter 'l' for lowercase, 'u' for uppercase, 'n' for numbers, 's' for special characters, or 'all' for all character types.")
   welcomePrompt = welcomePrompt.toLocaleLowerCase();
 // If statements for each letter selection
-  if (welcomePrompt === "l") {
+  if (welcomePrompt === "l") { // Lowercase-only password
     var lengthPrompt = prompt( "How many characters long would you like your password to be? Please enter a number between 8 and 128");
     var lengthNumber = parseInt(lengthPrompt);
     console.log(lengthNumber);
@@ -26,7 +26,7 @@ function writePassword() {
         alert("Your new password is " + makeLowerCasePasswd())
       }
   }
-  else if (welcomePrompt === "u") {
+  else if (welcomePrompt === "u") { // Uppercase-only password
     var lengthPrompt = prompt( "How many characters long would you like your password to be? Please enter a number between 8 and 128");
     var lengthNumber = parseInt(lengthPrompt);
     console.log(lengthNumber);
@@ -45,7 +45,7 @@ function writePassword() {
         alert("Your new password is " + makeUpperCasePasswd())
       }
   }
-  else if (welcomePrompt === "n") {
+  else if (welcomePrompt === "n") { // Numbers-only password
     var lengthPrompt = prompt( "How many characters long would you like your password to be? Please enter a number between 8 and 128");
     var lengthNumber = parseInt(lengthPrompt);
     console.log(lengthNumber);
@@ -64,7 +64,7 @@ function writePassword() {
         alert("Your new password is " + makeNumberPasswd())
       }
   }
-  else if (welcomePrompt === "s") {
+  else if (welcomePrompt === "s") { //Special characters-only password
     var lengthPrompt = prompt( "How many characters long would you like your password to be? Please enter a number between 8 and 128");
     var lengthNumber = parseInt(lengthPrompt);
     console.log(lengthNumber);
@@ -83,7 +83,7 @@ function writePassword() {
         alert("Your new password is " + makeSpecialCharPasswd())
       }
   }
-  else if (welcomePrompt === "all") {
+  else if (welcomePrompt === "all") { //All characters combination password
     var lengthPrompt = prompt( "How many characters long would you like your password to be? Please enter a number between 8 and 128");
     var lengthNumber = parseInt(lengthPrompt);
     console.log(lengthNumber);
