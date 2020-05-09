@@ -13,8 +13,6 @@ var charsNums = "0123456789";
 //All Characters
 var charsAll = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_-+=`~,.<>?/|0123456789"
 
-var welcomePrompt = prompt("What kind of characters would you like to include in your password? Enter 'l' for lowecase, 'u' for uppercase, 'n' for numbers, 's' for special characters, or 'all' for all character types.")
-welcomePrompt = welcomePrompt.toLocaleLowerCase();
 
 //-----Psuedocode for new function
 // Name function
@@ -27,6 +25,8 @@ welcomePrompt = welcomePrompt.toLocaleLowerCase();
 
 // Write password to the #password input
 function writePassword() {
+  var welcomePrompt = prompt("What kind of characters would you like to include in your password? Enter 'l' for lowercase, 'u' for uppercase, 'n' for numbers, 's' for special characters, or 'all' for all character types.")
+  welcomePrompt = welcomePrompt.toLocaleLowerCase();
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
@@ -35,5 +35,4 @@ function writePassword() {
 }
 //-----Call Functions
 // Add event listener to generate button
-generateBtn.addEventListener("click", welcomePrompt);
 generateBtn.addEventListener("click", writePassword);
