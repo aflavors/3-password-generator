@@ -2,18 +2,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-//ABC Uppecase
-var charsUppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-//ABC Lowercase
-var charsLowercase = "abcdefghijklmnopqrstuvwxyz";
-//Special Characters
-var charsSpecial = "!@#$%^&*()_-+=`~,.<>?/|";
-//Numbers
-var charsNums = "0123456789";
-//All Characters
-var charsAll = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_-+=`~,.<>?/|0123456789"
-
-
 // Write password to the #password input
 function writePassword() {
   var welcomePrompt = prompt("What kind of characters would you like to include in your password? Enter 'l' for lowercase, 'u' for uppercase, 'n' for numbers, 's' for special characters, or 'all' for all character types.")
