@@ -1,6 +1,6 @@
 # 3-Password-Generator
 ![Website Screenshot](index-screenshot.png)
-This application was created to generate a random password based on user-selected criteria. This application runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.
+This application was created to generate a random password based on user-selected criteria. 
 
 ## Table of Contents
 - [Overview](#Overview)
