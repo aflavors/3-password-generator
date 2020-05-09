@@ -9,11 +9,8 @@ var abcLowercase = "abcdefghijklmnopqrstuvwxyz";
 //Special Characters
 var specialChar = "!@#$%^&*()_-+=`~,.<>?/|";
 
-//-----Functions
-// Welcome user and confirm they want to generate a password
-function welcomePrompt() {
-  confirm("Please answer the following questions to generate your password. Click ok to begin.");
-}
+var welcomePrompt = prompt("What kind of characters would you like to include in your password? Enter 'l' for lowecase, 'u' for uppercase, 'n' for numbers, 's' for special characters, or 'all' for all character types.")
+welcomePrompt = welcomePrompt.toLocaleLowerCase();
 
 //-----Psuedocode for new function
 // Name function
