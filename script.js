@@ -14,15 +14,6 @@ var charsNums = "0123456789";
 var charsAll = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_-+=`~,.<>?/|0123456789"
 
 
-//-----Psuedocode for new function
-// Name function
-// Define variable for password to return to
-// Define string
-// Define loop for length of strength and random selection
-// Combine random selection together
-// Return to variable
-// Add to generateBtn order
-
 // Write password to the #password input
 function writePassword() {
   var welcomePrompt = prompt("What kind of characters would you like to include in your password? Enter 'l' for lowercase, 'u' for uppercase, 'n' for numbers, 's' for special characters, or 'all' for all character types.")
