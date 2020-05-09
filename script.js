@@ -1,7 +1,5 @@
-//-----Define Variables
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-
 // Write password to the #password input
 function writePassword() {
   var welcomePrompt = prompt("What kind of characters would you like to include in your password? Enter 'l' for lowercase, 'u' for uppercase, 'n' for numbers, 's' for special characters, or 'all' for all character types.")
@@ -102,14 +100,10 @@ function writePassword() {
         alert("Your new password is " + makeAllCharPasswd())
       }
   }
-
-  // Don't touch below
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 }
-
-//-----Call Functions
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
